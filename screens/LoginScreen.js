@@ -34,7 +34,7 @@ const LoginScreen = ({ navigation }) => {
       <Image
         source={{
           uri:
-            'https://blog.mozilla.org/internetcitizen/files/2018/08/signal-logo.png',
+            'https://seeklogo.com/images/S/signal-logo-20A1616F60-seeklogo.com.png',
         }}
         style={{
           width: 200,
@@ -81,6 +81,7 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     width: 300,
+    marginTop: 50
   },
   button: {
     width: 200,

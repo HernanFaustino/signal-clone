@@ -121,7 +121,7 @@ const ChatScreen = ({ navigation, route }) => {
       <KeyboardAvoidingView
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
         style={styles.container}
-        keyboardVerticalOffset={90}
+        keyboardVerticalOffset={60}
       >
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
           <>
